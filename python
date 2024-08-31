@@ -1,0 +1,12 @@
+# Get user input
+weight = float(input("Enter your weight in kg: "))
+height = float(input("Enter your height in meters: "))
+
+# Calculate BMI
+bmi = weight / (height ** 2)  # Using exponentiation operator for better readability
+
+# Round BMI to the nearest integer (optional)
+bmi_int = round(bmi)  # Using round() function for more accurate rounding
+
+# Print the result
+print("Your BMI is:", bmi_int)
